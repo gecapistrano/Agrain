@@ -27,20 +27,21 @@ By replacing mental arithmetic with visual and tactile feedback, Agrain enables 
 * **📸 Offline Expense Logging:** Snap photos of fertilizer sacks, receipts, seeds, and labor costs. No internet required.
 * **🪣 The "Expense Bucket":** A visual representation of total seasonal investment, providing an intuitive overview of production costs.
 * **📊 Automatic Break-Even Calculation:** Instantly know the minimum price per kilo needed to recover your investment.
-* **⚖️ Dynamic Negotiation Slider:** * 🔴 **Red Screen:** Offer is below break-even (Potential Loss).
+* **⚖️ Dynamic Negotiation Slider:**
+    * 🔴 **Red Screen:** Offer is below break-even (Potential Loss).
     * 🟢 **Green Screen:** Offer exceeds threshold (Profit).
 * **🌐 PWA Technology:** Operates entirely offline using **IndexedDB** for local storage.
 
 ---
 
-## 🛠️ Tech Stack & Keywords
+## Keywords
 
 `offline-first` • `financial empowerment` • `farm-gate` • `smallholder farmers` • `break-even price` • `PWA` • `negotiation leverage` • `expense tracking` • `zero-math interface`
 
 ---
 
 ## 👥 Team CIH314
-We are a dedicated team of student innovators from the **UPLB ACSS Innovation Lab**.
+We are a dedicated team of student innovators that joined the **UPLB ACSS Innovation Lab** Hackathon in February 2026.
 
 * **Alvarado, Silver Aldren A.**
 * **Billones, John Rey F.**
