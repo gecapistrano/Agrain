@@ -3,8 +3,8 @@
 # 🌾 Agrain: "Alamin Ang Tamang Presyo"
 **Top 10 Finalist | UPLB ACSS The Innovation Lab Hackathon**
 
-[![Live Web](https://img.shields.io/badge/Live_App-Visit_Vercel-orange?style=for-the-badge&logo=vercel)](https://agrain.vercel.app/)
-[![Hackathon](https://img.shields.io/badge/Event-The_Innovation_Lab-blue?style=for-the-badge&logo=eventbrite)](https://luma.com/a3hzf077?fbclid=IwY2xjawQkTKBleHRuA2FlbQIxMABicmlkETFKbzdLQkwyRnMzS0ZWZXptc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHiJsh3lQ-qblco0FNC-mZcf7pSuFYWudZW7ZVKhNqWi637MHfwj7F9CPWLY5_aem_P2K2UFDxAvo6Gv9NHL6Htw&tk=QwWhom)
+[![Live Web](https://img.shields.io/badge/Live_Web-Visit_Vercel-orange?style=for-the-badge&logo=vercel)](https://agrain.vercel.app/)
+[![Hackathon](https://img.shields.io/badge/Hackathon-The_Innovation_Lab-blue?style=for-the-badge&logo=eventbrite)](https://luma.com/a3hzf077?fbclid=IwY2xjawQkTKBleHRuA2FlbQIxMABicmlkETFKbzdLQkwyRnMzS0ZWZXptc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHiJsh3lQ-qblco0FNC-mZcf7pSuFYWudZW7ZVKhNqWi637MHfwj7F9CPWLY5_aem_P2K2UFDxAvo6Gv9NHL6Htw&tk=QwWhom)
 
 ---
 
