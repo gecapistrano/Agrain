@@ -56,12 +56,6 @@ By replacing mental arithmetic with visual and tactile feedback, Agrain enables 
 
 ---
 
-## Keywords
-
-`offline-first` • `financial empowerment` • `farm-gate` • `smallholder farmers` • `break-even price` • `PWA` • `negotiation leverage` • `expense tracking` • `zero-math interface`
-
----
-
 ## 👥 Team CIH314
 We are a dedicated team of student innovators that joined the **UPLB ACSS Innovation Lab** Hackathon in February 2026.
 
@@ -78,3 +72,9 @@ We are a dedicated team of student innovators that joined the **UPLB ACSS Innova
 1. **Clone the repo**
    ```bash
    git clone [https://github.com/yourusername/agrain.git](https://github.com/yourusername/agrain.git)
+
+---
+
+## Keywords
+
+`offline-first` • `financial empowerment` • `farm-gate` • `smallholder farmers` • `break-even price` • `PWA` • `negotiation leverage` • `expense tracking` • `zero-math interface`
