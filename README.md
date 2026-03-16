@@ -18,8 +18,6 @@
 
 By replacing mental arithmetic with visual and tactile feedback, Agrain enables farmers to make informed decisions confidently, even under pressure. The application strengthens negotiation leverage and provides verifiable proof of true production costs.
 
-
-
 ---
 
 ## ✨ Key Features
@@ -31,6 +29,30 @@ By replacing mental arithmetic with visual and tactile feedback, Agrain enables 
     * 🔴 **Red Screen:** Offer is below break-even (Potential Loss).
     * 🟢 **Green Screen:** Offer exceeds threshold (Profit).
 * **🌐 PWA Technology:** Operates entirely offline using **IndexedDB** for local storage.
+
+---
+
+## 🛠️ Tech Stack
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,vite,tailwind,js,npm" />
+  </a>
+</p>
+
+| Category | Technology |
+| :--- | :--- |
+| **Language** | JavaScript (JSX) |
+| **Frontend Framework** | **React 19** |
+| **Build Tool** | Vite 6 |
+| **Styling** | Tailwind CSS v4 + Custom CSS Variables |
+| **Routing** | React Router DOM v7 |
+| **State Management** | React Context API |
+| **Database / Storage** | **IndexedDB** via LocalForage (Offline-first) |
+| **PWA** | `vite-plugin-pwa` (Installable & Offline-capable) |
+| **Testing** | Vitest 4, React Testing Library, jsdom |
+| **Package Manager** | npm |
+| **Fonts** | Google Fonts (*Righteous, Bebas Neue, Playfair Display*) |
 
 ---
 
