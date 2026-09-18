@@ -1,7 +1,9 @@
 {
-  "name": "level",
+  "name": "agrain",
   "private": true,
   "version": "0.1.0",
+  "description": "Offline-first break-even and negotiation tool for Filipino smallholder farmers",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",

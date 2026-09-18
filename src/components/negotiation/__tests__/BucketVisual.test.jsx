@@ -25,7 +25,7 @@ describe('BucketVisual', () => {
 
   it('shows expense count message when expenses exist', () => {
     render(<BucketVisual totalExpenses={5000} expenseCount={3} />);
-    expect(screen.getByText(/3 ang gastos/)).toBeTruthy();
+    expect(screen.getByText(/3 ang pinagkagastusan/)).toBeTruthy();
   });
 
   it('has bucket-tank class for CSS styling', () => {

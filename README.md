@@ -4,7 +4,9 @@
 **Top 10 Finalist | UPLB ACSS The Innovation Lab Hackathon**
 
 [![Live Web](https://img.shields.io/badge/Live_Web-Visit_Vercel-orange?style=for-the-badge&logo=vercel)](https://agrain.vercel.app/)
-[![Hackathon](https://img.shields.io/badge/Hackathon-The_Innovation_Lab-blue?style=for-the-badge&logo=eventbrite)](https://luma.com/a3hzf077?fbclid=IwY2xjawQkTKBleHRuA2FlbQIxMABicmlkETFKbzdLQkwyRnMzS0ZWZXptc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHiJsh3lQ-qblco0FNC-mZcf7pSuFYWudZW7ZVKhNqWi637MHfwj7F9CPWLY5_aem_P2K2UFDxAvo6Gv9NHL6Htw&tk=QwWhom)
+[![Hackathon](https://img.shields.io/badge/Hackathon-The_Innovation_Lab-blue?style=for-the-badge&logo=eventbrite)](https://luma.com/a3hzf077)
+[![Tests](https://img.shields.io/badge/tests-108_passing-brightgreen?style=for-the-badge&logo=vitest)](#-testing)
+[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 
 ---
 
@@ -69,9 +71,65 @@ We are a dedicated team of student innovators that joined the **UPLB ACSS Innova
 
 ## ⚙️ Installation & Usage (Local Development)
 
-1. **Clone the repo**
-   ```bash
-   git clone [https://github.com/yourusername/agrain.git](https://github.com/yourusername/agrain.git)
+**Prerequisites:** Node.js 18+ and npm
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/gecapistrano/Agrain.git
+cd Agrain
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the dev server (http://localhost:5173)
+npm run dev
+```
+
+**Other commands**
+
+| Command | What it does |
+| :--- | :--- |
+| `npm run dev` | Start the Vite dev server with hot reload |
+| `npm run build` | Production build to `dist/` |
+| `npm run preview` | Serve the production build locally |
+| `npm test` | Run the full Vitest suite once |
+| `npm run test:watch` | Run tests in watch mode |
+
+> **Note:** Agrain is a PWA and needs no backend, API keys, or environment variables. All data is stored locally in the browser via IndexedDB, so the app is fully functional offline from first load.
+
+---
+
+## 🧪 Testing
+
+The app ships with **108 tests across 20 suites**, covering UI components, business logic, and page-level integration.
+
+```bash
+npm test
+```
+
+| Layer | Covered |
+| :--- | :--- |
+| **Negotiation** | Break-even math, bucket visual, harvest input, price slider |
+| **Expenses** | Expense cards, list rendering, logging modal, tier picker |
+| **Camera** | Capture flow and photo preview |
+| **Layout / UI** | App shell, bottom nav, header, buttons, confirmations |
+| **Pages** | Home, Expenses, and Negotiation integration |
+| **Utilities** | Design tokens and shared constants |
+
+The break-even calculation in `src/utils/breakeven.js` is the core of the product, so it is unit-tested independently of the UI.
+
+---
+
+## 🧠 How the Break-Even Logic Works
+
+Agrain's central idea is that a farmer should never have to do arithmetic under negotiating pressure.
+
+1. Every expense logged during the season is summed into a **total investment**.
+2. The farmer enters their **harvest weight** in kilos.
+3. The app computes the **break-even price per kilo** — total investment divided by harvest weight.
+4. The negotiation slider compares any offered price against that threshold and turns **red below it** and **green above it**.
+
+The result is a single, glanceable answer to the only question that matters at the farm gate: *is this offer a loss or a profit?*
 
 ---
 
